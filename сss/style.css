@@ -1,1 +1,234 @@
-рунг
+/* @import url("reset.css"); */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+body {
+
+}
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 50px;
+	background-color: #e31b6d;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+/* ==================================== */
+.logo{
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 10px 20px;
+}
+.nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: 0.2% ease;
+}
+.nav a:hover{
+	color: #333;
+}
+.hero{
+	background-image: url('../img/01.jpg');
+	height: 150vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-content{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+.hero-content h1{
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+.hero-content p{
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.hero .cta-btn{
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: #e31b6d;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.2% ease;
+}
+.hero .cta-btn:hover{
+	background-color: #fff;
+	color: #e31b6d;
+	border: 2px solid #e31b6d;
+}
+.features {
+	padding: 100px 0px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.feature{
+	display: inline-block;
+	width: 33.33%;
+	padding: 0px 20px;
+	margin-bottom: 40px;
+}
+.feature i {
+	font-size: 48px;
+	color: #e31b6d;
+	margin-bottom: 20px;
+}
+.feature h3{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.feature p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 0px;
+}
+.cta{
+	background-image: url('../img/08.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+.cta-content{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+.cta-content h2{
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.cta-content p{
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.cta-content .cta-btn{
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: #e31b6d;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.2% ease;
+}
+.cta-content .cta-btn:hover{
+	background-color: #fff;
+	color: #e31b6d;
+	border: 2px solid #e31b6d;
+}
+.form{
+	background-color: #fff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+}
+.form h3{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.form input{
+	width: 100%;
+	display: block;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 2px solid #e31b6d;
+	font-size: 18px;
+}
+.form button{
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: #e31b6d;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.2% ease;
+}
+.form button:hover{
+	background-color: #fff;
+	color: #e31b6d;
+	border: 2px solid #e31b6d;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 40px; 
+	text-align: center;
+}
+footer p{
+	color: #fff;
+}
+.social-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.social-icons i {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin: 0px 10px;
+	font-size: 24px;
+	transition: 0.4% ease;
+}
+.social-icons i:hover{
+	color: #e31b6d;
+	transform: translateY(-5px);
+}
+
